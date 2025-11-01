@@ -60,13 +60,13 @@ SudokuGame/
 -------------------
 Players can select a difficulty level before starting.  
 Each level has a different time limit, number of hints, and allowed mistakes:
-+----------------------------------------+
-| Level  | Time Limit | Hints | Mistakes |
-|--------|-------------|-------|----------|
-| Easy   | 15 minutes  | 5     | 5        |
-| Medium | 20 minutes  | 3     | 3        |
-| Hard   | 30 minutes  | 0     | 0        |
-+----------------------------------------+
++---------------------------------------+
+| Level  | Time Limit | Hints | Mistakes|
+|--------|------------|-------|---------|
+| Easy   | 15 minutes | 5     | 5       |
+| Medium | 20 minutes | 3     | 3       |
+| Hard   | 30 minutes | 0     | 0       |
++---------------------------------------+
 
 - Time: A countdown timer based on the selected level.  
   If time runs out before the puzzle is solved, the player loses.  
