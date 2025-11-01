@@ -56,7 +56,7 @@ SudokuGame/
 ## 🎮 MAIN FEATURES
 
 
-# 1. PLAY MODE
+### 1. PLAY MODE
 -------------------
 Players can select a difficulty level before starting.  
 Each level has a different time limit, number of hints, and allowed mistakes:
@@ -87,42 +87,42 @@ Each level has a different time limit, number of hints, and allowed mistakes:
   Players can save scores, continue playing, or reset to start a new puzzle.
 
 
-# 2. RANKING BOARD
+### 2. RANKING BOARD
 ---------------------------------
 Displays the Top 10 players with the highest scores.  
 Data is loaded from the file "top10_ranking.txt".
 
 
-# 3. HOW TO PLAY
+### 3. HOW TO PLAY
 ---------------------------------
 The tutorial is presented through 11 slides.  
 Each slide includes two navigation buttons:
 - "arrow_next.png" → go to the next slide.
 - "arrow_back.png" → return to the previous slide.
 
-4. ABOUT US
+### 4. ABOUT US
 --------------------------
 Provides information about the project team and the development process behind Sudoku Game.
 
 
-5. QUIT
+### 5. QUIT
 ----------------------
 Exits the game and closes the application.
 
 ## ⚙️ HOW TO RUN THE GAME (BASED ON ACTUAL CODE)
 
-# 1. System Requirements
+### 1. System Requirements
    - Python 3.8 or newer (recommended: 3.9+)
    - PyQt5 library installed
 
-# 2. Install Required Library
+### 2. Install Required Library
    Open your terminal or command prompt and run:
    > pip install PyQt5
 
    (No additional libraries are needed since all logic, graphics, and gameplay are already implemented  
    within `main.py` and `howtoplay.py`.)
 
-# 3. Prepare the Project Directory
+### 3. Prepare the Project Directory
    Make sure the `SudokuGame` folder contains all required files and assets  
    as shown in the project structure above.
 
@@ -130,7 +130,7 @@ Exits the game and closes the application.
   do not exist, they will be automatically created as empty files.
 - The images in the `assets` folder are mandatory for the GUI to display properly.
 
-# 4. Run the Game
+### 4. Run the Game
 - Open the terminal (CMD or PowerShell) in the folder containing `main.py`.
 - Run the following command:
   > python main.py
@@ -145,18 +145,18 @@ Once launched, the main menu window will appear with the following buttons:
 - About Us: View information about the development team.  
 - Quit: Exit the game.
 
-# 5. Data Saving
+### 5. Data Saving
 - Whenever a player finishes a game or returns to the main menu,  
   their data is automatically saved to `players.json`.
 - If a player achieves a new high score,  
   the top 10 leaderboard in `top10_ranking.txt` will update automatically.
 
-# 6. Exiting the Game
+### 6. Exiting the Game
 - You can exit via the Quit button in the main menu or by pressing the ESC key.  
 - While playing, pressing ESC opens a confirmation dialog (uses image `announcement.png`)  
   asking whether to save your current progress.
 
-# 7. Platform Notes
+### 7. Platform Notes
 - Windows: You can double-click `main.py` to run if Python is associated with `.py` files.  
 - macOS/Linux: Run from the terminal using `python3 main.py`.  
 - If you get a “missing PyQt5” error, ensure that Python was installed from the official  
