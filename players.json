@@ -1,0 +1,20 @@
+{
+  "Easy": [
+    {
+      "name": "m",
+      "score": 428,
+      "level": "Easy",
+      "time_spent": 316,
+      "date": "2025-10-28 01:12:19"
+    },
+    {
+      "name": "a",
+      "score": 40,
+      "level": "Easy",
+      "time_spent": 0,
+      "date": "2025-10-28 00:44:08"
+    }
+  ],
+  "Medium": [],
+  "Hard": []
+}

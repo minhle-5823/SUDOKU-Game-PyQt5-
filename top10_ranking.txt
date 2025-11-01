@@ -1,0 +1,11 @@
+Rank	Player	Score
+🥇		minh	1024
+🥈		le		890
+🥉		1234	786
+4️⃣		aaa		665
+5️⃣		king	581
+6️⃣		mh		432
+7️⃣		sff		338
+8️⃣		adgs	229
+9️⃣		fsfsf	153
+🔟		haha	80
